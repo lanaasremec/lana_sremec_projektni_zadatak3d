@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <title>Vježbe – Lana Sremec</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #ffe6f0;
+      color: #222;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #111;
+      text-align: center;
+      font-size: 40px;
+      margin-bottom: 10px;
+      position: relative;
+    }
+
+    h1::after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: -10px;
+      transform: translateX(-50%);
+      width: 100px;
+      height: 5px;
+      background: repeating-linear-gradient(90deg, #ff99cc, #ff99cc 10px, transparent 10px, transparent 20px);
+      border-radius: 10px;
+    }
+
+    h2 {
+      color: #333;
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      text-align: center;
+      margin: 25px 0 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      background-color: rgba(255, 255, 255, 0.4);
+      border-radius: 10px;
+      margin-bottom: 40px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    nav ul li {
+      margin: 10px 20px;
+    }
+
+    nav ul li a {
+      color: #111;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #cc0066;
+    }
+
+    img {
+      width: 200px;
+      height: auto;
+      border: 2px solid #111;
+      border-radius: 5px;
+      margin: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    video {
+      width: 320px;
+      height: auto;
+      display: block;
+      margin: 20px auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Vježbe</h1>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Početna</a></li>
+      <li><a href="o_meni.html">O meni</a></li>
+      <li><a href="vjezbe.html">Vježbe</a></li>
+      <li><a href="video.html">Video</a></li>
+    </ul>
+  </nav>
+
+  <h2>Ovo su vježbe koje smo radili kroz semestar</h2>
+
+  <p>Vektorska grafika</p>
+  <img src="slike2/vježba2.jpg" alt="vježba2">
+  <img src="slike2/vježba3.jpg" alt="vježba3">
+  <img src="slike2/vježba4.jpg" alt="vježba4">
+  <img src="slike2/projektni1.jpg" alt="projektni1">
+
+  <p>Piksel grafika</p>
+  <img src="slike2/vjezba6.jpg" alt="vjezba6">
+  <img src="slike2/vježba7.jpg" alt="vježba7">
+  <img src="slike2/vježba8.jpg" alt="vježba8">
+  <img src="slike2/vježba9.jpg" alt="vježba9">
+  <img src="slike2/projektni2.jpg" alt="projektni2">
+
+  <p>Obrada videa i web</p>
+  <video controls>
+    <source src="video/moj_video1.mp4" type="video/mp4">
+    Vaš preglednik ne podržava prikaz videa.
+  </video>
+
+  <p>Koristila sam fade in, spin i još neke efekte</p>
+  <img src="video/moj_cinemagraf.gif" alt="cinemagraf">
+
+</body>
+</html>

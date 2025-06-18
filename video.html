@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <title>Video – Lana Sremec</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #ffe6f0;
+      color: #222;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #111;
+      text-align: center;
+      font-size: 40px;
+      margin-bottom: 10px;
+      position: relative;
+    }
+
+    h1::after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: -10px;
+      transform: translateX(-50%);
+      width: 100px;
+      height: 5px;
+      background: repeating-linear-gradient(90deg, #ff99cc, #ff99cc 10px, transparent 10px, transparent 20px);
+      border-radius: 10px;
+    }
+
+    p {
+      font-size: 18px;
+      text-align: center;
+      max-width: 800px;
+      margin: 30px auto;
+      line-height: 1.6;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      background-color: rgba(255, 255, 255, 0.4);
+      border-radius: 10px;
+      margin-bottom: 40px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    nav ul li {
+      margin: 10px 20px;
+    }
+
+    nav ul li a {
+      color: #111;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #cc0066;
+    }
+
+    video {
+      width: 640px;
+      height: auto;
+      display: block;
+      margin: 0 auto 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Video</h1>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Početna</a></li>
+      <li><a href="o_meni.html">O meni</a></li>
+      <li><a href="vjezbe.html">Vježbe</a></li>
+      <li><a href="video.html">Video</a></li>
+    </ul>
+  </nav>
+
+  <video controls>
+    <source src="video/cinemagraf-projekt.mp4" type="video/mp4">
+  </video>
+
+  <p>
+    U svom video projektu koristila sam više tehnika obrade kako bih postigla dinamičan i zanimljiv rezultat.<br>
+    Uključeno je: osnovno rezanje i spajanje isječaka, dodavanje prijelaza (fade in/out), korekcija boja, 
+    umetanje titlova i dodavanje pozadinske glazbe s prilagođenom jačinom.<br>
+    Također sam koristila efekt usporavanja i ubrzavanja pojedinih scena radi naglašavanja radnje.
+  </p>
+
+</body>
+</html>
